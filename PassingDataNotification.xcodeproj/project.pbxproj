@@ -12,6 +12,8 @@
 		E7C5E0AF212BFA65000349CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C5E0AD212BFA65000349CC /* Main.storyboard */; };
 		E7C5E0B1212BFA65000349CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C5E0B0212BFA65000349CC /* Assets.xcassets */; };
 		E7C5E0B4212BFA65000349CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C5E0B2212BFA65000349CC /* LaunchScreen.storyboard */; };
+		E7C5E0BD212C008A000349CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C5E0BC212C008A000349CC /* SecondViewController.swift */; };
+		E7C5E0BF212C0193000349CC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C5E0BE212C0193000349CC /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E7C5E0B0212BFA65000349CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C5E0B3212BFA65000349CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C5E0B5212BFA65000349CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C5E0BC212C008A000349CC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E7C5E0BE212C0193000349CC /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E7C5E0B0212BFA65000349CC /* Assets.xcassets */,
 				E7C5E0B2212BFA65000349CC /* LaunchScreen.storyboard */,
 				E7C5E0B5212BFA65000349CC /* Info.plist */,
+				E7C5E0BC212C008A000349CC /* SecondViewController.swift */,
+				E7C5E0BE212C0193000349CC /* Notification.swift */,
 			);
 			path = PassingDataNotification;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C5E0BF212C0193000349CC /* Notification.swift in Sources */,
+				E7C5E0BD212C008A000349CC /* SecondViewController.swift in Sources */,
 				E7C5E0AC212BFA65000349CC /* ViewController.swift in Sources */,
 				E7C5E0AA212BFA65000349CC /* AppDelegate.swift in Sources */,
 			);
